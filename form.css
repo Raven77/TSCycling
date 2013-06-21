@@ -1,0 +1,136 @@
+form#header button {
+	background: #98D4C7;
+	border: none;
+	color #FFFFFF;
+	display: black;
+	margin: 0px;
+	padding: 15px;
+}
+
+form#header button:hover{
+	background: #C2FFF2;
+	cursor: pointer;
+	/* add this to images later 
+	 margin: 10px;
+	 padding: 30px; */
+}
+
+#container{
+	width:988px;
+	background-color: #FFFFFF;
+	border: 1px solid #FFD98F;
+	margin: 20px auto;
+	height: 900px;
+	font-family: Verdana, Georgia, Times, serif;
+	color: #333333;
+}
+
+body{
+	font-size: 10px;
+	color: #88907A;
+	background-color: #1C6369;
+}
+
+header{
+	width:700px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	font-family: Verdana, Georgia, Times, serif;
+	color: #1C6369;
+}
+
+.box {
+	width: 233px;
+	height: 300px;
+	background-color: #FFFFFF;
+	margin: 0 25px;
+}
+
+.row {
+	clear: both;
+}
+
+a, a:visited { /* for anchor tags and visited ones */
+	color:  #FFD98F;
+	font-weight: 300;
+}
+
+a:active, a:hover {
+	color: #333333;
+}
+
+#removeNumber {
+    list-style: none;
+}
+
+#detailcontainer1{
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+#detailcontainer2{
+	float: left;
+}
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+#nav {
+	list-style: none;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+	text-decoration: none;
+}
+#nav li {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	text-decoration: none;
+}
+#nav a {
+	display: block;
+	padding: 20px;
+	color: black;
+	background: #98D4C7;
+	text-decoration: none;
+}
+#nav a:hover {
+	color:#333;
+	background: #6b0c36;
+}
+#nav ul {
+	background: #fff;
+	background: rgba(255,255,255,0);
+	list-style: none;
+	position: absolute;
+	left: -9999px;
+}
+#nav ul li {
+	padding-top: 1px;
+	float: none;
+}
+
+
+#nav ul a {
+	white-space: nowrap;
+}
+#nav li:hover ul {
+	left: 0;
+}
+#nav li:hover a {
+	background: #C2FFF2;
+}
+#nav li:hover ul a {
+	text-decoration: none;
+}
+#nav li:hover ul li a:hover {
+	 background: #7BDBCB;
+}
